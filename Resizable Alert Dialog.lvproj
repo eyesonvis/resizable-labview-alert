@@ -32,6 +32,9 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="resizable_alert_UI Data.ctl" Type="VI" URL="../controls/resizable_alert_UI Data.ctl"/>
 		</Item>
+		<Item Name="VI Analyzer" Type="Folder">
+			<Item Name="resizable alert code checks.viancfg" Type="Document" URL="../resizable alert code checks.viancfg"/>
+		</Item>
 		<Item Name="resizable_alert_Main.vi" Type="VI" URL="../resizable_alert_Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
