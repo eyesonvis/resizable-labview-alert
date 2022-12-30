@@ -21,5 +21,5 @@ When you resize the dialog, the header and description text fields fill the avai
 When the dialog is closed, it changes the splitter colors back (according their resize behavior) before the VI stops running.
 
 To change a splitter's resize behavior or lock state, right-click on the splitter.
-
+![Screenshot of the splitter right-click menu](splitter_menu.png)
 
