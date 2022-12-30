@@ -23,3 +23,8 @@ When the dialog is closed, it changes the splitter colors back (according their 
 To change a splitter's resize behavior or lock state, right-click on the splitter.
 ![Screenshot of the splitter right-click menu](splitter_menu.png)
 
+To make a control fill the available space, right-click on the control and choose "Fit Control to Pane." This will enable "Scale Object with Pane" as well.
+![Screenshot of right-click menu on a control showing Fit Control to Panel and Scale Object with Pane](scale.png)
+
+To make the control resize fluidly while the user resizes the window, right click a splitter that borders the control's pane, then from the appropriate pane pull-right, choose Pane Sizing>Scale Objects While Resizing.
+![Screenshot of Splitter right-click menu showing Scale Objects While Resizing](scale_resizing.png)
