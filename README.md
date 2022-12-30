@@ -9,6 +9,17 @@ This project demonstrates the fundamentals:
 - locking splitter bars
 - having controls resize to fit to their pane fluidly while the user resizes the window
 
-When you open the main VI, the splitters are color-coded according to their resize behavior. When the VI runs, the code recolors the splitters to match the background color of the panel, making them invisible to the end user. When the dialog is closed, it changes the splitter colors back (according their resize behavior) before the VI stops running.
+When you open the main VI, the splitters are color-coded according to their resize behavior. 
+![Screenshot of dialog at edit time](dialog_edit.png)
+
+When the VI runs, the code recolors the splitters to match the background color of the panel, making them invisible to the end user. 
+![Screenshot of the dialog when rnning](dialog_running.png)
+
+When you resize the dialog, the header and description text fields fill the available space, and the button stays in the bottom-right corner.
+![Screenshot of the dialog resized larger](dialog_resized.png)
+
+When the dialog is closed, it changes the splitter colors back (according their resize behavior) before the VI stops running.
 
 To change a splitter's resize behavior or lock state, right-click on the splitter.
+![Screenshot of the splitter right-click menu](splitter_menu.png)
+
